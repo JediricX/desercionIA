@@ -49,8 +49,8 @@ Diseñar e implementar un **Sistema de Alerta Temprana (SAT)** basado en Intelig
 
 1. Clona el repositorio:
    
-	git clone https://github.com/<usuario>/SAT-Desercion-OULAD.git
-   	cd SAT-Desercion-OULAD
+	git clone https://github.com/JediricX/desercionIA.git
+   	cd desercionIA
 
 2. Crea y activa el entorno virtual:
 
