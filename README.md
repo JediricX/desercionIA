@@ -10,8 +10,7 @@ El objetivo es ofrecer a las instituciones educativas una herramienta preventiva
 ## 🚀 Objetivo
 Diseñar e implementar un **Sistema de Alerta Temprana (SAT)** basado en Inteligencia Artificial que compare el rendimiento de algoritmos de clasificación supervisada:
 - Random Forest  
-- Árboles de Decisión  
-- XGBoost  
+- Gradient Boosting  
 - Regresión Logística  
 
 ---
@@ -26,20 +25,20 @@ Diseñar e implementar un **Sistema de Alerta Temprana (SAT)** basado en Intelig
 │   │   ├── studentInfo.csv
 │   │   ├── studentRegistration.csv
 │   │   ├── vle.csv
-│   │   └── studentVle.csv
-│   └── processed/
-│       └── student_data_clean.csv
+│   │   └── studentVle.zip
 ├── notebooks/
 │   ├── 01_EDA.ipynb
 │   ├── 02_FeatureEngineering.ipynb
 │   ├── 03_ModelTraining.ipynb
 │   └── 04_Evaluation.ipynb
+│   └── Detección temprana abandono universitario Tesis.ipynb
 ├── src/
 │   ├── preprocessing.py
 │   ├── modeling.py
 │   ├── evaluation.py
 │   └── utils.py
 ├── requirements.txt
+├── .gitignore.txt
 └── README.md
 
 
